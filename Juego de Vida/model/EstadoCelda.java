@@ -1,6 +1,4 @@
 package model;
-// ESTO ESTA BIEN. NO REQUIERO SETTERS.
-// MIRAR EQUALS
 
 public class EstadoCelda {
 
@@ -30,3 +28,4 @@ public class EstadoCelda {
         return this.nombre.equals(otro.getNombre());
     }
 }
+
