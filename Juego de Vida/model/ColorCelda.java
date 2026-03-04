@@ -1,5 +1,4 @@
 package model;
-//  NECESITO DOCUMENTAR
 
 public class ColorCelda {
     private int r;
@@ -26,3 +25,4 @@ public class ColorCelda {
         return b;
     }
 }
+
