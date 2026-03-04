@@ -1,5 +1,4 @@
 package model;
-// ESTO ESTA BIEN.
 
 public class Celda {
 
@@ -32,4 +31,5 @@ public class Celda {
         return this.estado.getNombre().equals("Viva");
     }
 }
+
 
