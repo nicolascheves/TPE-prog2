@@ -81,13 +81,11 @@ public class Tabla {
         for (int i = -1; i <= 1; i++) {
                 for (int j = -1; j <= 1; j++) {
 
-                // Saltar la celda actual
                 if (i == 0 && j == 0) continue;
 
                 int nuevaFila = fila + i; 
                 int nuevaCol = col + j;
 
-                // Verificar que esté dentro de la matriz
                 if (nuevaFila >= 0 && nuevaFila < filas && nuevaCol >= 0 && nuevaCol < columnas) {
 
                     EstadoCelda estadoVecino = celdas[nuevaFila][nuevaCol].getEstado();
@@ -154,4 +152,5 @@ public class Tabla {
         return copiaTabla; 
     }    
 }
+
 
