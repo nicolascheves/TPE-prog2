@@ -1,8 +1,6 @@
 package model;
 
 import java.util.ArrayList;
-// DOCUMENTAR 44, 
-// NO REQUIERO ArrayList<EstadoCelda> getEstados()
 
 import condiciones.Condicion;
 
@@ -85,9 +83,7 @@ public class Tabla {
 
                 // Saltar la celda actual
                 if (i == 0 && j == 0) continue;
-                // si no forma parte de la matriz, no se cuenta.
 
-                // ESTO NO LO ENTIENDO
                 int nuevaFila = fila + i; 
                 int nuevaCol = col + j;
 
@@ -131,7 +127,7 @@ public class Tabla {
                 return e;
             }
         }
-        throw new IllegalArgumentException("Estado no reconocido: " + c); // IMPORTANTE manejo Err
+        throw new IllegalArgumentException("Estado no reconocido: " + c); 
     }
 
     public void setCelda(int fila, int col, EstadoCelda estado) {
@@ -158,3 +154,4 @@ public class Tabla {
         return copiaTabla; 
     }    
 }
+
